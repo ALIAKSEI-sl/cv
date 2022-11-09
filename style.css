@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.header {
+    display: flex;
+    width: 760px;
+    background-color:antiquewhite ;
+    padding: 30px;
+}
+
+.photo {
+    background-image: url(./assets/photo.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 125px;    
+}
+
+.title {   
+    width: 500px;
+}
+
+.title-items {
+    text-align: center;
+}
