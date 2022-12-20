@@ -62,7 +62,7 @@
     padding-left: 60px;
     background-color:rgb(35, 119, 168);
     color: rgb(255, 255, 255);
-    height: 1020px;
+    height: 1100px;
 }
 
 .section-right {
@@ -107,6 +107,10 @@
 
 .education-item li:first-child {
     padding-bottom: 20px;
+}
+
+.education-item li:last-child {
+    padding-top: 20px;
 }
 
 .map {    
