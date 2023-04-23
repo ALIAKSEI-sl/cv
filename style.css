@@ -1,180 +1,188 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-.wrapper {
-    width: 960px;
-    margin: 0 auto;
-    
-    position: relative;
-}
-
-.header {
-    display: flex;
-    width: 800px;
-    background-color: rgb(185, 203, 214);
-    padding: 30px;
-    position: absolute;
-    left: 50px;
-    top: 50px;
-}
-
-.photo {
-    background-image: url(./assets/photo.jpg);
-    width: 200px;
-    height: 200px;
-    border-radius: 125px;    
-}
-
-.title {   
-    width: 540px;
-}
-
-.title-items {
-    width: 426px;
-    margin: 0 auto;
-    color: rgb(255, 255, 255);    
-}
-
-.block-contacts {
-    margin-top: 20px;
-    padding: 0;
-    padding-top: 20px;
-    padding-left: 10px;
-    width: 426px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 130px;
-    font-size: 18px;
-}
-
-.main {
-    display: flex;
-    margin-top: 50px;    
-}
-
-.section-left {    
-    width: 480px;    
-    padding-top: 380px;
-    padding-left: 60px;
-    background-color:rgb(35, 119, 168);
-    color: rgb(255, 255, 255);
-    height: 1100px;
-}
-
-.section-right {
-    width: 480px;    
-    padding-top: 380px;
-    padding-left: 60px;
-}
-
-.contacts {    
-    color: rgb(255, 255, 255);
-    list-style-type: none;
-    display: flex;
-    gap: 10px; 
-}
-
-.languages-block {
-    padding: 30px 0;
-}
-
-.skills-item, .skills-languages {    
-    padding-top: 20px;
-}
-
-.about, .education, .projects {
-    background-color:  rgb(185, 203, 214);
-    color: white;
-    padding-left: 10px;
-}
-
-.about-text, .education-item {
-    padding: 20px 0;
-    font-size: 17px;
-}
-
-.about-text:last-child {
-    padding-top: 0;
-}
-
-.education-item {
-    padding-left: 20px;
-}
-
-.education-item li:first-child {
-    padding-bottom: 20px;
-}
-
-.education-item li:last-child {
-    padding-top: 20px;
-}
-
-.map {    
-    width: 18px;
-    height: 18px;
-    background-image: url(assets/map.svg);
-    background-size: contain;
-}
-
-.phone {
-    width: 18px;
-    height: 18px;
-    background-image: url(assets/phone.svg);
-    background-size: contain;
-}
-
-.telegram {
-    width: 18px;
-    height: 18px;
-    background-image: url(assets/telegram.svg);
-    background-size: contain;
-}
-
-.email {
-    width: 18px;
-    height: 18px;
-    background-image: url(assets/email.svg);
-    background-size: contain;
-}
-
-.linkedin {
-    width: 18px;
-    height: 18px;
-    background-image: url(assets/linkedin.svg);
-    background-size: contain;
-}
-
-.projects-item {
-    padding-left: 20px;
-    font-size: 17px;
-}
-
-.projects-item li {
-    padding-top: 20px;    
+  box-sizing: border-box;
+  margin: 0;
 }
 
 a {
-    background-color:  rgb(185, 203, 214);
-    color:  white;
-    text-decoration: none;
-    font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(185, 203, 214);
+  padding: 30px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.photo {
+  background-image: url(./assets/photo.jpg);
+  width: 200px;
+  height: 200px;
+  border-radius: 125px;
+}
+
+.title {
+  padding: 0 60px;
+}
+
+.title-items {
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+}
+
+.block-contacts {
+  padding: 0;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  margin-top: 50px;
+}
+
+.section-left {
+  width: 480px;
+  padding-top: 380px;
+  padding-left: 60px;
+  background-color: rgb(35, 119, 168);
+  color: rgb(255, 255, 255);
+  height: 1100px;
+}
+
+.section-right {
+  width: 480px;
+  padding-top: 380px;
+  padding-left: 60px;
+}
+
+.contacts {
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.languages-block {
+  padding: 30px 0;
+}
+
+.skills-item,
+.skills-languages {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.about,
+.education,
+.projects {
+  background-color: rgb(185, 203, 214);
+  color: white;
+  padding: 5px 0 5px 10px;
+  /* padding-left: 10px; */
+}
+
+.about-text {
+  text-indent: 20px;
+}
+
+.about-text,
+.education-item {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.about-text:last-child {
+  padding-top: 0;
+}
+
+.education-item {
+  padding-left: 20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-right a {
+  color: black;
+}
+
+.map {
+  width: 23px;
+  height: 23px;
+  background-image: url(assets/map.svg);
+  background-size: contain;
+}
+
+.phone {
+  width: 23px;
+  height: 23px;
+  background-image: url(assets/phone.svg);
+  background-size: contain;
+}
+
+.telegram {
+  width: 23px;
+  height: 23px;
+  background-image: url(assets/telegram.svg);
+  background-size: contain;
+}
+
+.email {
+  width: 23px;
+  height: 23px;
+  background-image: url(assets/email.svg);
+  background-size: contain;
+}
+
+.linkedin {
+  width: 23px;
+  height: 23px;
+  background-image: url(assets/linkedin.svg);
+  background-size: contain;
+}
+
+.projects-item {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.projects-item li {
+  padding-top: 20px;
 }
 
 .footer {
-    display: flex;
-    width: 910px;
-    height: 30px;
-    background-color: rgb(185, 203, 214);
-    padding: 30px;
-    position: relative;
-    left: 50px;
-    bottom: 30px;
+  display: flex;
+  width: 910px;
+  height: 30px;
+  background-color: rgb(185, 203, 214);
+  padding: 30px;
+  position: relative;
+  left: 50px;
+  bottom: 30px;
 }
 
-.yer {
-    margin-left: auto;
+.year {
+  margin-left: auto;
+}
+
+.section-right a:hover {
+  background-color: rgb(185, 203, 214);
 }
