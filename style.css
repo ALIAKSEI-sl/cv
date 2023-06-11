@@ -17,7 +17,7 @@ a {
 .header {
   display: flex;
   align-items: center;
-  background-color: rgb(185, 203, 214);
+  background-color: rgb(186, 196, 202);
   padding: 30px;
   position: absolute;
   left: 50px;
@@ -38,6 +38,10 @@ a {
 .title-items {
   margin: 0 auto;
   color: rgb(255, 255, 255);
+}
+
+.title-items:first-child {
+  margin-bottom: 10px;
 }
 
 .block-contacts {
@@ -63,7 +67,7 @@ a {
   padding-left: 60px;
   background-color: rgb(35, 119, 168);
   color: rgb(255, 255, 255);
-  height: 1100px;
+  height: 1150px;
 }
 
 .section-right {
@@ -92,7 +96,7 @@ a {
 .about,
 .education,
 .projects {
-  background-color: rgb(185, 203, 214);
+  background-color: rgb(186, 196, 202);
   color: white;
   padding: 5px 0 5px 10px;
   /* padding-left: 10px; */
@@ -172,7 +176,7 @@ a {
   display: flex;
   width: 910px;
   height: 30px;
-  background-color: rgb(185, 203, 214);
+  background-color: rgb(186, 196, 202);
   padding: 30px;
   position: relative;
   left: 50px;
@@ -184,5 +188,5 @@ a {
 }
 
 .section-right a:hover {
-  background-color: rgb(185, 203, 214);
+  background-color: rgb(186, 196, 202);
 }
