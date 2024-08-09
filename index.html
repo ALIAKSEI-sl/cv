@@ -1,193 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" href="assets/favicon.ico" />
-    <title>CV</title>
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <div class="background">
-        <div class="background-left"></div>
-        <div class="background-right"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="block-title">
+        <h1>Aliaksei Hancharevich</h1>
+        <h2>Front-End Developer</h2>
       </div>
 
-      <div class="content">
-        <header class="header">
-          <div class="photo"></div>
+      <ul class="block-contacts">
+        <li class="contacts-list">
+          <div class="telegram"></div>
+          <a href="https://t.me/alaksiej_h9" target="_blank">@alaksiej_h9</a>
+        </li>
+        <li class="contacts-list">
+          <div class="phone"></div>
+          <a href="tel:+48508555776">+48 508 555 776</a>
+        </li>
+        <li class="contacts-list">
+          <div class="map"></div>
+          <a href="https://goo.gl/maps/nQPu8XegnLfqZZQa6" target="_blank">Wroclaw, Poland</a>
+        </li>
+        <li class="contacts-list">
+          <div class="email"></div>
+          <a href="mailto:aliaksei.h9@gmail.com">aliaksei.h9@gmail.com</a>
+        </li>
+        <li class="contacts-list">
+          <div class="linkedin"></div>
+          <a href="https://www.linkedin.com/in/aliaksei-hancharevich-46139b256/"
+            target="_blank">linkedin.com/in/aliaksei-hancharevich-46139b256</a>
+        </li>
+      </ul>
+    </header>
 
-          <div class="block-title">
-            <h1>ALIAKSEI HANCHAREVICH</h1>
-            <h3>JS / FRONTEND / BACKEND</h3>
-            <ul class="block-contacts">
-              <li>
-                <div class="map"></div>
-                <a href="https://goo.gl/maps/nQPu8XegnLfqZZQa6" target="_blank"
-                  >Wroclaw, Poland</a
-                >
-              </li>
-              <li>
-                <div class="phone"></div>
-                <a href="tel:+48508555776">+48 508 555 776</a>
-              </li>
-              <li>
-                <div class="telegram"></div>
-                <a href="https://t.me/aliaksei_h9" target="_blank"
-                  >@aliaksei_h9</a
-                >
-              </li>
-              <li>
-                <div class="email"></div>
-                <a href="mailto:aliaksei.h9@gmail.com">aliaksei.h9@gmail.com</a>
-              </li>
-              <li>
-                <div class="linkedin"></div>
-                <a
-                  href="https://www.linkedin.com/in/aliaksei-hancharevich-46139b256/"
-                  target="_blank"
-                  >linkedin.com/in/aliaksei-hancharevich-46139b256</a
-                >
-              </li>
-            </ul>
+    <main class="main">
+      <section class="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>Hard-working and effective software engineer with over 2 years of expertise specializing in front-end
+          development, mainly on Angular using libraries like Angular Material, RxJS, NgRx, etc. Also have experience
+          working with React, Redux, NestJS, SQL, PostgreSQL, Docker. I've successfully created highly efficient
+          and scalable applications while optimizing performance. Seeking a developer position where a strong
+          understanding of technology can be best utilized.</p>
+      </section>
+
+      <section class="skills">
+        <h2 class="section-title">Core skills</h2>
+        <ul class="list">
+          <div>
+            <li>— HTML, CSS, SCSS;</li>
+            <li>— JavaScript, TypeScript;</li>
           </div>
-        </header>
+          <div>
+            <li>— NodeJs, Webpack, ESLint;</li>
+            <li>— Angular, RxJS, NgRx, Angular Material;</li>
+          </div>
+          <div>
+            <li>— Git, GitHub, Jira;</li>
+            <li>— Jest, Jasmine, Karma;</li>
+          </div>
+        </ul>
+      </section>
 
-        <main class="main">
-          <section class="section-left">
-            <div>
-              <h2>SKILLS:</h2>
-              <ul class="block-list-left">
-                <li>HTML, CSS, SCSS;</li>
-                <li>Git, GitHub, JIRA;</li>
-                <li>JavaScript, TypeScript;</li>
-                <li>Webpack, ESLint;</li>
-                <li>Angular, RxJS, NgRx;</li>
-                <li>React, Redux, RTK;</li>
-                <li>RESTful API, WebSocket;</li>
-                <li>NodeJs, NestJs;</li>
-                <li>SQL, PostgreSQL, MongoDB;</li>
-                <li>Jest, Docker, JWT;</li>
-              </ul>
-            </div>
+      <section>
+        <h2 class="section-title">Relevant experience</h2>
+        <ul class="experience-list">
+          <li>
+            <h3>11/2022 - 09/2023 | Software Engineer | GugloPlex - Wroclaw, Poland</h3>
+            <ul class="responsibilities-list">
+              <li>— Participating in many projects for various customers as a front-end developer;</li>
+              <li>— Taking part in daily meetings including scrum rituals;</li>
+              <li>— Regularly researching and learning codebase to expand knowledge, skills and expertise in software
+                development;</li>
+              <li>— Performing code reviews and communicating with backend team and QA;</li>
+            </ul>
+          </li>
+          <li>
+            <h3>10/2023 - till now | Frontend developer</h3>
+            <ul class="responsibilities-list">
+              <li>— Performing code-review, code-refactoring and bug-fixing;</li>
+              <li>— Assisting quality assurance team with testing software, investigating bugs and developing test
+                cases;</li>
+              <li>— Development testable software using agile methodologies to create high-quality deliverables;</li>
+              <li>— Code optimization and refactoring;</li>
+              <li>— Keeping pace with changing coding standards and requirements and maintaining updated software;</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
 
-            <div>
-              <h2>LANGUAGES:</h2>
-              <ul class="block-list-left">
-                <li>Russian, Belarusian - native speaker;</li>
-                <li>English - B1;</li>
-                <li>Polish - A2;</li>
-              </ul>
-            </div>
-          </section>
+      <section class="languager">
+        <h2 class="section-title">Languages</h2>
+        <ul class="list">
+          <li>— Russian, Belarusian - native speaker;</li>
+          <li>— English - B1;</li>
+          <li>— Polish - A2;</li>
+        </ul>
+      </section>
 
-          <section class="section-right">
-            <div>
-              <h2 class="title-right">ABOUT ME</h2>
-              <div class="block-about">
-                <p>
-                  I'm 27 years old. Developer with a passion for creating
-                  interactive and user-friendly user interfaces. I specialize
-                  in the developing modern web applications and websites, with a
-                  focus on maximum accessibility and responsiveness. I have deep
-                  knowledge of HTML, CSS, and JavaScript, as well as experience
-                  working with frameworks including Angular and NestJS. Looking
-                  for new challenges and the opportunity to apply my skills to
-                  create amazing web products.
-                </p>
-                <p>
-                  I am looking for an opportunity to join an inspiring team
-                  where my skills and passion for development will help create
-                  outstanding web products and customer satisfaction.
-                </p>
-              </div>
-            </div>
+      <section class="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="list">
+          <div>
+            <li>— <a href="https://app.rs.school/certificate/hcv7wh11" target="_blank">JavaScript/Front-end | The Rolling
+                Scopes School;</a>
+            </li>
+            <li>— AWS Cloud Developer Course | The Rolling Scopes School;</li>
+            <li>— Energy faculty | Belarusian National Technical University;</li>
+          </div>
+          <div>
+            <li>— <a href="https://app.rs.school/certificate/vx07gqfa" target="_blank">React | The Rolling Scopes
+                School;</a>
+            </li>
+            <li>— <a href="https://app.rs.school/certificate/mmacdwzo" target="_blank">NodeJs | The Rolling Scopes
+                School;</a>
+            </li>
+            <li>— <a href="https://app.rs.school/certificate/49aj4lot" target="_blank">Angular | The Rolling Scopes
+                School;</a>
+            </li>
+          </div>
+        </ul>
+      </section>
+    </main>
 
-            <div>
-              <h2 class="title-right">EDUCATION</h2>
-              <ul class="block-list-right">
-                <li>
-                  Energy faculty <b>|</b> 09/2013-06/2018 <br />Belarusian
-                  National Technical University;
-                </li>
-                <li>
-                  <a
-                    href="https://app.rs.school/certificate/hcv7wh11"
-                    target="_blank"
-                  >
-                    JavaScript/Front-end <b>|</b> 03/2023 - 09/2023
-                    <!-- <br />The Rolling Scopes School; -->
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://app.rs.school/certificate/mmacdwzo"
-                    target="_blank"
-                    >NodeJs <b>|</b> 12/2022 - 03/2023
-                    <!-- <br />The Rolling Scopes School; -->
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://app.rs.school/certificate/49aj4lot"
-                    target="_blank"
-                  >
-                    Angular <b>|</b> 03/2023 - 06/2023
-                    <!-- <br />The Rolling Scopes School; -->
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://app.rs.school/certificate/vx07gqfa"
-                    target="_blank"
-                  >
-                    React <b>|</b> 10/2023 - 01/2024
-                    <!-- <br />The Rolling Scopes School; -->
-                  </a>
-              </ul>
-            </div>
+    <footer>
+      <p class="year">2024</p>
+    </footer>
+  </div>
+</body>
 
-            <div>
-              <h2 class="title-right">PROJECTS</h2>
-              <ul class="block-list-right">
-                <li>
-                  <a href="https://you-tube-client-app.web.app/" target="_blank"
-                    >YouTube client app;</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/ALIAKSEI-sl/nodejs2022Q4-service"
-                    target="_blank"
-                    >Home Library Service;</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://graphiql-app-seven.vercel.app/"
-                    target="_blank"
-                    >GraphiQL;</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://rolling-scopes-school.github.io/aliaksei-sl-JSFE2023Q1/cssSelectors/"
-                    target="_blank"
-                    >CssSelectors;</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </section>
-        </main>
-
-        <footer class="footer">
-          <p class="year">2024</p>
-        </footer>
-      </div>
-    </div>
-  </body>
 </html>

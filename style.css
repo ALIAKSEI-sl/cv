@@ -1,138 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;700&display=swap');
+
 * {
-  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --line-gap: 5px;
+  --font-size: 20px;
 }
 
 a {
-  color: white;
+  color: #000;
   text-decoration: none;
+}
+
+a:hover {
+  color: #777;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Gupter";
+  font-weight: 400;
+  font-style: normal;
 }
 
 .wrapper {
   width: 960px;
-  margin: 50px auto;
-  position: relative;
-}
-
-.background {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  position: absolute;
-  z-index: 1;
-}
-
-.background-left {
-  width: 50%;
-  height: 100%;
-  background-color: rgb(35, 119, 168);
-}
-
-.background-right {
-  width: 50%;
-  height: 100%;
-  background-color: rgb(255, 255, 255);
-}
-
-.content {
-  position: relative;
-  z-index: 2;
-  padding: 50px 0 0 50px;
+  margin: 0 auto;
+  padding: 40px 30px;
 }
 
 .header {
   width: 100%;
   display: flex;
-  align-items: center;
-  gap: 60px;
-  background-color: rgb(186, 196, 202);
-  color: rgb(255, 255, 255);
-  padding: 30px;
-}
-
-.photo {
-  background-image: url(./assets/photo.jpg);
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
 }
 
 .block-title {
+  width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  color: rgb(255, 255, 255);
-  list-style-type: none;
+  justify-content: center;
+  gap: var(--line-gap);
 }
 
 .block-contacts {
-  padding: 20px 0 0 10px;
+  width: 60%;
   display: flex;
-  gap: 10px;
+  gap: var(--line-gap);
   flex-direction: column;
-  font-size: 20px;
+  padding-left: 60px;
+  font-size: var(--font-size);
 }
 
-.block-contacts > * {
+.contacts-list {
   display: flex;
   gap: 10px;
 }
 
 .main {
+  font-size: var(--font-size);
+}
+
+.section-title {
+  padding: 20px 0 10px 0;
+
+}
+
+.list {
   display: flex;
-  padding-top: 50px;
+  justify-content: space-around;
 }
 
-.section-left {
-  width: 50%;
-  padding-left: 10px;
-  color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.section-right {
-  width: 50%;
-  padding: 0 10px 0 30px;
-}
-
-.block-list-left {
-  padding-top: 20px;
+.experience-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
-.block-list-left > * {
-  font-size: 18px;
-}
-
-.title-right {
-  background-color: rgb(186, 196, 202);
-  color: white;
-  padding: 5px 0 5px 10px;
-}
-
-.block-about {
-  padding: 20px 0;
-  text-indent: 20px;
+.responsibilities-list {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  font-size: 18px;
-}
-
-.block-list-right {
-  padding: 20px 0 20px 30px;
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.section-right a {
-  color: black;
+  gap: var(--line-gap);
 }
 
 .map {
@@ -152,6 +107,7 @@ a {
 .telegram {
   width: 23px;
   height: 23px;
+  display: inline-block;
   background-image: url(assets/telegram.svg);
   background-size: contain;
 }
@@ -170,18 +126,9 @@ a {
   background-size: contain;
 }
 
-.footer {
-  display: flex;
-  background-color: rgb(186, 196, 202);
-  padding: 20px;
-  position: relative;
-  top: 10px;
-}
-
 .year {
-  margin-left: auto;
-}
-
-.section-right a:hover {
-  background-color: rgb(186, 196, 202);
+  text-align: end;
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: var(--font-size);
 }
